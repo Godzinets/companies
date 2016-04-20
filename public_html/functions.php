@@ -372,7 +372,7 @@ for($i=0; $i<count($companies); $i++)
 
     if($companies[$i]['child_count']!=0) // якщо є дочрні команії, то виводимо їх на екран
 		show_companies($companies[$i]['id']);
-	else echo"<div class='border'> </div>";
+	
 }
 
    $level--; 
